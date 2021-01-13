@@ -1,0 +1,28 @@
+{% extends "portfolio_core/base.html" %}
+{% load static %}
+{% block content %} 
+
+<div class=" mt-5">
+  <div class="text-center">
+    <img src="{% static "portfolio_core/images/pic1.jpg" %}" alt="ProfilePic" 
+    class="border border-dark img-fluid" width="250px" height="150px">
+  </div> 
+
+  <div class="mt-5 text-white mx-4" style="text-align:justify;">
+    <h2 class="font-weight-bold st-font">Hello,</h2>
+    <div class="px-3" style="line-height:2rem;">
+      <p style="text-indent:65px;"> I am <b class="text-warning">Muhammad Azim Afnaan</b>, I would like to learn Programming. It's not only my profession but also my passion. Skilled in C Programming, Python, Django, SQLite3, HTML, CSS and Bootstrap.</p>
+      <p>I'm a Freelance Programmer. I studied Computer Science and Technology at Government Graphic Arts Institute. Currently, live in Dhaka. Interested in Artificial Intelligence, especially Intelligent Software.</p> 
+      <p>To acquire practical experience from various job experiences so that
+      I can do something well and figure out what I prefer from all of those
+      experiences. I hope to have a smooth and successful career of my
+      own style.</p>   
+  </div>
+  </div>
+    <div class="text-center">
+    <a href="{%url "contact"%}" class="btn btn-outline-warning my-3 mx-5">Hire Me</a>
+    <a href="{%url "contact"%}" class="btn btn-outline-warning my-3 ">Contact Me</a>
+    </div>
+</div>
+
+{% endblock content%} 

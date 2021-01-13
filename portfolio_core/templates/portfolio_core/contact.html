@@ -1,0 +1,38 @@
+{% extends 'portfolio_core/base.html' %}
+
+{% block content %}
+<div class=" container mt-5">
+    <h1 class="text-warning mb-5 border-bottom border-warning">CONTACT</h1>
+    <div class="row text-white mb-5">
+        <p class="text-center mb-5">Do You Have Any Questions? Please do not hesitate to contact.</p>
+        <div class="col-sm-9 mb-5">
+            <form action="" class="mb-5">
+                <div class="row pb-5">
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Your Name" aria-label="Your Name">
+                    </div>
+                    <div class="col">
+                      <input type="email" class="form-control" placeholder="Email" aria-label="Email">
+                    </div>
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Subject" aria-label="Subject">
+                  </div>
+                  <div class="mb-3 mt-5"> 
+                    <textarea class="form-control" cols="5" rows="7" placeholder="Your Message"></textarea>
+                   
+                  </div>
+                  <div class="col-12 mt-4">
+                    <button type="submit" class="btn btn-warning">Submit</button>
+                  </div>
+            </form>
+            <div class="text-center">
+                <a href="https://www.facebook.com/Azim.Afnaan/" target="_blank" class="me-2"><i class="fab fa-facebook-f text-warning"></i></a>
+                <a href="https://twitter.com/AzimAfnaan" target="_blank" class="me-2"><i class="fab fa-twitter text-warning"></i></a>
+                <a href="https://www.linkedin.com/in/azimafnaan/" target="_blank" class="me-2"><i class="fab fa-linkedin-in text-warning"></i></a>
+            </div>
+        </div>
+    </div>    
+</div> 
+ 
+{% endblock %}
